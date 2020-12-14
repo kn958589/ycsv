@@ -99,10 +99,11 @@ p {
 
 .bg_cover {
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%; }
+  height: auto !important;
+  padding-top:55%}
 
 /*==== Section Title =====*/
 .section-title .title {
@@ -120,7 +121,7 @@ p {
   color: #6c6c6c;
   margin-top: 24px; }
 
-/*===== All Preloader Style =====*/
+/*===== All Preloader Style =====cov*/
 .preloader {
   /* Body Overlay */
   position: fixed;
@@ -1094,7 +1095,7 @@ p {
 
 /*===== SLIDER ONE =====*/
 .slider-area {
-  padding-top: 94px; }
+  padding-top: 61px; }
   .slider-area .bd-example .carousel .carousel-inner {
     background-color: #38f9d7; }
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
